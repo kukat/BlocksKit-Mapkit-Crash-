@@ -1,0 +1,10 @@
+PODS:
+  - A2DynamicDelegate (2.0.1):
+    - libffi
+  - BlocksKit (1.0.6):
+    - A2DynamicDelegate
+  - libffi (3.0.11)
+
+DEPENDENCIES:
+  - A2DynamicDelegate (= 2.0.1)
+  - BlocksKit (= 1.0.6)

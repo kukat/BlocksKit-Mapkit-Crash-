@@ -13,3 +13,4 @@ profile
 *.moved-aside
 build.output
 pkg/*
+Pods/*

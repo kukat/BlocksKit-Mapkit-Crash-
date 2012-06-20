@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03356765770F419385BF0487 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB0E887C89D49BDB6A947AF /* libPods.a */; };
 		FA75F1D91591A91D00B631F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA75F1D81591A91D00B631F0 /* UIKit.framework */; };
 		FA75F1DB1591A91D00B631F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA75F1DA1591A91D00B631F0 /* Foundation.framework */; };
 		FA75F1DD1591A91D00B631F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA75F1DC1591A91D00B631F0 /* CoreGraphics.framework */; };
 		FA75F1E31591A91D00B631F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA75F1E11591A91D00B631F0 /* InfoPlist.strings */; };
 		FA75F1E51591A91D00B631F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75F1E41591A91D00B631F0 /* main.m */; };
 		FA75F1E91591A91D00B631F0 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75F1E81591A91D00B631F0 /* CCAppDelegate.m */; };
+		FA75F20F1591AC6F00B631F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA75F20E1591AC6F00B631F0 /* MapKit.framework */; };
+		FA75F2141591AC8500B631F0 /* CCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75F2121591AC8500B631F0 /* CCRootViewController.m */; };
+		FA75F2151591AC8500B631F0 /* CCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA75F2131591AC8500B631F0 /* CCRootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29AD6056498249108EF24C8D /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9CB0E887C89D49BDB6A947AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA75F1D41591A91D00B631F0 /* fackbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fackbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA75F1D81591A91D00B631F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA75F1DA1591A91D00B631F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,6 +32,10 @@
 		FA75F1E61591A91D00B631F0 /* fackbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fackbook-Prefix.pch"; sourceTree = "<group>"; };
 		FA75F1E71591A91D00B631F0 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		FA75F1E81591A91D00B631F0 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		FA75F20E1591AC6F00B631F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA75F2111591AC8500B631F0 /* CCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRootViewController.h; sourceTree = "<group>"; };
+		FA75F2121591AC8500B631F0 /* CCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRootViewController.m; sourceTree = "<group>"; };
+		FA75F2131591AC8500B631F0 /* CCRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCRootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +43,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA75F20F1591AC6F00B631F0 /* MapKit.framework in Frameworks */,
 				FA75F1D91591A91D00B631F0 /* UIKit.framework in Frameworks */,
 				FA75F1DB1591A91D00B631F0 /* Foundation.framework in Frameworks */,
 				FA75F1DD1591A91D00B631F0 /* CoreGraphics.framework in Frameworks */,
+				03356765770F419385BF0487 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +57,11 @@
 		FA75F1C91591A91D00B631F0 = {
 			isa = PBXGroup;
 			children = (
+				FA75F20E1591AC6F00B631F0 /* MapKit.framework */,
 				FA75F1DE1591A91D00B631F0 /* fackbook */,
 				FA75F1D71591A91D00B631F0 /* Frameworks */,
 				FA75F1D51591A91D00B631F0 /* Products */,
+				29AD6056498249108EF24C8D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +79,7 @@
 				FA75F1D81591A91D00B631F0 /* UIKit.framework */,
 				FA75F1DA1591A91D00B631F0 /* Foundation.framework */,
 				FA75F1DC1591A91D00B631F0 /* CoreGraphics.framework */,
+				9CB0E887C89D49BDB6A947AF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,6 +89,9 @@
 			children = (
 				FA75F1E71591A91D00B631F0 /* CCAppDelegate.h */,
 				FA75F1E81591A91D00B631F0 /* CCAppDelegate.m */,
+				FA75F2111591AC8500B631F0 /* CCRootViewController.h */,
+				FA75F2121591AC8500B631F0 /* CCRootViewController.m */,
+				FA75F2131591AC8500B631F0 /* CCRootViewController.xib */,
 				FA75F1DF1591A91D00B631F0 /* Supporting Files */,
 			);
 			path = fackbook;
@@ -100,6 +118,7 @@
 				FA75F1D01591A91D00B631F0 /* Sources */,
 				FA75F1D11591A91D00B631F0 /* Frameworks */,
 				FA75F1D21591A91D00B631F0 /* Resources */,
+				9311BF6504274423A040F2C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,10 +162,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA75F1E31591A91D00B631F0 /* InfoPlist.strings in Resources */,
+				FA75F2151591AC8500B631F0 /* CCRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9311BF6504274423A040F2C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA75F1D01591A91D00B631F0 /* Sources */ = {
@@ -155,6 +192,7 @@
 			files = (
 				FA75F1E51591A91D00B631F0 /* main.m in Sources */,
 				FA75F1E91591A91D00B631F0 /* CCAppDelegate.m in Sources */,
+				FA75F2141591AC8500B631F0 /* CCRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,22 +255,32 @@
 		};
 		FA75F1ED1591A91D00B631F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AD6056498249108EF24C8D /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fackbook/fackbook-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "fackbook/fackbook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		FA75F1EE1591A91D00B631F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AD6056498249108EF24C8D /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fackbook/fackbook-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "fackbook/fackbook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -256,6 +304,7 @@
 				FA75F1EE1591A91D00B631F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
